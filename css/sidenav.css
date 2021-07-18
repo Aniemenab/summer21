@@ -1,0 +1,309 @@
+ /* The side navigation menu */
+ 
+ .sidenav {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: white;
+     overflow-x: hidden;
+     padding-top: 90px;
+     transition: 0.5s;
+ }
+ 
+ .arrow {
+     font-size: 1.8rem;
+     margin-right: 2rem;
+     float: right;
+ }
+ 
+ .tab {
+     overflow: hidden;
+     border: 1px solid #ccc;
+     background-color: #f1f1f1;
+     width: 300px;
+     margin-top: 1.3rem;
+ }
+ /* Style the buttons inside the tab */
+ 
+ .tab button {
+     background-color: inherit;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 14px 16px;
+     transition: 0.3s;
+     font-size: 17px;
+     width: 140px;
+ }
+ /* Change background color of buttons on hover */
+ 
+ .tab button:hover {
+     background-color: #ddd;
+ }
+ /* Create an active/current tablink class */
+ 
+ .tab button.active {
+     background-color: #ccc;
+ }
+ /* Style the tab content */
+ 
+ .tabcontent {
+     display: none;
+     border: 1px solid #ccc;
+     border-top: none;
+     width: 300px;
+ }
+ 
+ .form2 {
+     width: 100%;
+     float: left;
+     margin-top: 1rem;
+ }
+ 
+ .form2 .form-body2 {
+     width: 80%;
+     margin: auto;
+ }
+ 
+ .form-find2 {
+     width: 100%;
+     height: 40px;
+     border-radius: 50px;
+     background-color: whitesmoke;
+     display: flex;
+     border: 1px solid black;
+ }
+ 
+ .form-find2 input {
+     width: 94.4%;
+     height: 38px;
+     background-color: whitesmoke;
+     margin-left: .3rem;
+     border: none;
+     outline: none;
+     border-radius: 0px 50px 50px;
+ }
+ 
+ .form-find2 i {
+     margin-left: 1rem;
+     margin-top: .7rem;
+ }
+ 
+ .sidebarchange {
+     width: 280px;
+     height: auto !important;
+     justify-content: space-evenly;
+     border-bottom: 1px solid black;
+     margin-top: .5rem;
+     padding-top: .7rem;
+ }
+ 
+ .sidenav a {
+     text-decoration: none;
+     top: 0;
+     color: black;
+     display: block;
+     transition: 0.3s;
+     font-size: 1rem;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .sidenav .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+ }
+ 
+ .men {
+     width: 290px !important;
+     height: auto !important;
+     padding: 10px;
+ }
+ 
+ .women {
+     width: 290px !important;
+     height: auto !important;
+     padding: 10px;
+ }
+ 
+ #myBtnContainer {
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 1rem;
+ }
+ 
+ .btn {
+     border: none;
+     outline: none;
+     width: 100px;
+     height: 50px;
+     background-color: whitesmoke;
+     cursor: pointer;
+ }
+ 
+ .btn:hover {
+     background-color: #ddd;
+ }
+ 
+ .btn.active {
+     background-color: #666;
+     color: white;
+ }
+ 
+ .column {
+     float: left;
+     display: none;
+     /* Hide all elements by default */
+ }
+ /* Clear floats after rows */
+ 
+ .show {
+     display: block;
+ }
+ 
+ .btn:hover {
+     background-color: #ddd;
+ }
+ 
+ .btn .active {
+     background-color: black;
+     color: white;
+ }
+ 
+ .men-home {
+     width: 250px;
+     height: 45px;
+     background-color: whitesmoke;
+     padding: .4rem .8rem;
+     margin-left: auto;
+     font-family: 1.3rem;
+ }
+ 
+ .men-home2 {
+     width: 233px;
+     height: 90px;
+     background-color: whitesmoke;
+     padding: .3rem .8rem;
+     margin: auto;
+     margin-top: 1rem;
+     font-size: 1rem;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ .men-home3 {
+     width: 280px;
+     height: 50px;
+     background-color: whitesmoke;
+     padding: .7rem .7rem;
+     margin-top: 1rem;
+     text-align: center;
+ }
+ 
+ .men-section {
+     width: 250px;
+     height: 90px;
+     background-color: whitesmoke;
+     padding: .4rem 1rem;
+     margin-top: 1rem;
+     margin-left: auto;
+     font-family: .4rem !important;
+ }
+ 
+ .men-section2 {
+     width: 250px;
+     height: 90px;
+     background-color: whitesmoke;
+     padding: 2rem 0 0 1rem;
+     margin-top: 1rem;
+     margin-left: auto;
+     font-size: 1.2rem !important;
+ }
+ 
+ .men-section3 {
+     width: 280px;
+     height: auto;
+     background-color: whitesmoke;
+     padding: .2rem 0 0 1rem;
+     margin-top: 1rem;
+     font-family: .4rem !important;
+ }
+ 
+ .men-sign {
+     width: 280px;
+     height: auto;
+     background-color: whitesmoke;
+     padding: 1rem 0 0 1rem;
+     margin-top: 1.7rem;
+     font-family: .4rem !important;
+ }
+ 
+ .men-section3,
+ .men-sign a {
+     margin-top: 1.7rem;
+ }
+ 
+ .men-sign a:hover {
+     color: darkslateblue;
+     font-weight: bold;
+ }
+ 
+ .men-section p {
+     font-weight: 100 !important;
+ }
+ 
+ .men-home3 i {
+     margin-left: .6rem;
+     font-size: 1.5rem;
+     color: darkslateblue;
+ }
+ 
+ .accordion {
+     background-color: #eee;
+     color: #444;
+     cursor: pointer;
+     padding: 18px;
+     width: 100% !important;
+     border: none;
+     text-align: left;
+     outline: none;
+     font-size: 15px;
+     transition: 0.4s;
+     margin-top: 1rem;
+ }
+ 
+ .active,
+ .accordion:hover {
+     background-color: #ccc;
+ }
+ 
+ .panel {
+     padding: 0 18px;
+     display: none;
+     background-color: white;
+     overflow: hidden;
+ }
+ 
+ .panel a {
+     margin-top: 1rem;
+ }
+ 
+ .panel a:hover {
+     color: darkslateblue;
+     font-weight: bold;
+     transition: all;
+ }
+ 
+ @media screen and (max-height: 450px) {
+     .sidenav {
+         padding-top: 15px;
+     }
+     .sidenav a {
+         font-size: 18px;
+     }
+ }
