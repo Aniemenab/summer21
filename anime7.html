@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-----sliderCss-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/sidenav.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/item.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>Summer 21</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <i class="fas fa-arrow-alt-circle-right arrow" onclick="closeNav()"></i>
+        <form action=" " class="form2">
+            <div class="form-body2">
+                <div class="form-find2 ">
+                    <i class="fas fa-search "></i>
+                    <input type="text" placeholder="Search......">
+                </div>
+            </div>
+        </form>
+        <div class="comot"></div>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">MEN</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">WOMEN</button>
+
+        </div>
+
+        <div id="London" class="tabcontent">
+            <div class=" men">
+                <a href="">
+                    <div class="men-home">
+                        <i class="fas fa-home"></i> HOME
+                    </div>
+                </a>
+
+
+                <a href="">
+                    <div class="men-section">
+                        <h5>Sale</h5>
+                        <p>UP TO 70% OFF</p>
+                    </div>
+                </a>
+
+                <a href="./men.html">
+                    <div class="men-section2">
+                        <h5>TOPMAN</h5>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="men-section2">NEW IN</div>
+                </a>
+
+                <a href="./uniex-store.html">
+                    <div class="men-section2">CLOTHING</div>
+                </a>
+                <a href="./shoe-cat.html">
+                    <div class="men-section2">SHOES</div>
+                </a>
+                <a href="">
+                    <div class="men-section2">SPORTWEARS</div>
+                </a>
+
+                <a href="">
+                    <div class="men-section2">BRANDS</div>
+                </a>
+
+
+                <a href="">
+                    <div class="men-home3">
+                        <i class=" fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-reddit"></i>
+                    </div>
+                </a>
+                <div class="men-sign">
+
+                    <div class="sign">
+                        <a href="">Sign-in</a>
+                        <a href="">login-in</a>
+                    </div>
+                    <a href="">
+                        <i class="fas fa-user"></i> &ensp;My Account
+                    </a>
+                    <a href="">
+                        <i class="fas fa-shopping-basket"></i> &ensp;My Orders
+                    </a>
+                    <a href="">
+                        <i class="far fa-question-circle"></i> &ensp; Returns Information
+                    </a>
+                    <a href="">
+                        <i class="far fa-comment-dots"></i> &ensp;Contact Prefrences
+                    </a>
+                    <div style="height: 30px;"></div>
+                </div>
+
+                <button class="accordion">Help & Information</button>
+                <div class="panel">
+                    <a href="">Help</a>
+                    <a href="">Track Order</a>
+                    <a href="">Delivery & Returns</a>
+                </div>
+
+                <button class="accordion">About</button>
+                <div class="panel">
+                    <a href="">About us</a>
+                    <a href="">Corporate Responbiliy</a>
+
+                </div>
+
+                <button class="accordion">More From Summer 21</button>
+                <div class="panel">
+                    <a href="">Black Friday</a>
+                    <a href="">Gift Vouchers</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="Paris" class="tabcontent">
+            <div class="women">
+                <a href="">
+                    <div class="men-home">
+                        <i class="fas fa-home"></i> HOME
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="men-section">
+                        <h5>Sale</h5>
+                        <p>UP TO 70% OFF</p>
+                    </div>
+                </a>
+
+                <a href="./women.html">
+                    <div class="men-section2">
+                        <h5>TOPWOMEN</h5>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="men-section2">NEW IN</div>
+                </a>
+                <a href="./uniex-store.html">
+                    <div class="men-section2">CLOTHING</div>
+                </a>
+                <a href="./shoe-cat.html">
+                    <div class="men-section2">SHOES</div>
+                </a>
+                <a href="">
+                    <div class="men-section2">SPORTWEARS</div>
+                </a>
+
+                <a href="">
+                    <div class="men-section2">BRANDS</div>
+                </a>
+
+                <a href="">
+                    <div class="men-home3">
+                        <i class=" fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-reddit"></i>
+                    </div>
+                </a>
+                <div class="men-sign">
+
+                    <div class="sign">
+                        <a href="">Sign-in</a>
+                        <a href="">login-in</a>
+                    </div>
+                    <a href="">
+                        <i class="fas fa-user"></i> &ensp;My Account
+                    </a>
+                    <a href="">
+                        <i class="fas fa-shopping-basket"></i> &ensp;My Orders
+                    </a>
+                    <a href="">
+                        <i class="far fa-question-circle"></i> &ensp; Returns Information
+                    </a>
+                    <a href="">
+                        <i class="far fa-comment-dots"></i> &ensp;Contact Prefrences
+                    </a>
+                    <div style="height: 30px;"></div>
+                </div>
+
+                <button class="accordion">Help & Information</button>
+                <div class="panel">
+                    <a href="">Help</a>
+                    <a href="">Track Order</a>
+                    <a href="">Delivery & Returns</a>
+                </div>
+
+                <button class="accordion">About</button>
+                <div class="panel">
+                    <a href="">About us</a>
+                    <a href="">Corporate Responbiliy</a>
+
+                </div>
+
+                <button class="accordion">More From Summer 21</button>
+                <div class="panel">
+                    <a href="">Black Friday</a>
+                    <a href="">Gift Vouchers</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="main">
+        <!--=========NAVBAR=========-->
+        <div class="container-fluid">
+            <header class="navbar-area">
+
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg">
+
+                        <a class="navbar-brand " href="index.html">
+                            <h3 class=" animate__animated animate__rubberBand">S<i class="far fa-sun"></i>MMER21</h3>
+                        </a>
+                        <div class="login2">
+                            <div class="dropdown">
+                                <i class="far fa-user dropbtn"></i>
+                                <div class="dropdown-content">
+
+                                    <div class="sign">
+                                        <a href="">Sign-in</a>
+                                        <a href="">login-in</a>
+                                    </div>
+                                    <a href="">
+                                        <i class="fas fa-user"></i> &ensp;My Account
+                                    </a>
+                                    <a href="">
+                                        <i class="fas fa-shopping-basket"></i> &ensp;My Orders
+                                    </a>
+                                    <a href="">
+                                        <i class="far fa-question-circle"></i> &ensp; Returns Information
+                                    </a>
+                                    <a href="">
+                                        <i class="far fa-comment-dots"></i> &ensp;Contact Prefrences
+                                    </a>
+                                </div>
+                            </div>
+                            <i class="far fa-heart"></i>
+                            <a href="./cart.html"><i class="fas fa-shopping-bag "></i></a>
+                        </div>
+
+                        <button class="navbar-toggler " type="button " data-toggle="collapse" onclick="openNav()" data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="toggler-icon "></span>
+                                    <span class="toggler-icon "></span>
+                                    <span class="toggler-icon "></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                            <ul id="nav" class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="./men.html">Men</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="./women.html">Women</a>
+                                </li>
+                            </ul>
+                            <form action="" class="form1">
+                                <div class="form-body1">
+                                    <div class="form-find1 ">
+                                        <i class="fas fa-search "></i>
+                                        <input type="text" placeholder="Search......">
+                                    </div>
+                                </div>
+                            </form>
+
+
+                            <div class="login ">
+                                <div class="dropdown">
+                                    <i class="far fa-user dropbtn "></i>
+                                    <div class="dropdown-content">
+
+                                        <div class="sign">
+                                            <a href="">Sign-in</a>
+                                            <a href="">login-in</a>
+                                        </div>
+                                        <a href="">
+                                            <i class="fas fa-user"></i> &ensp;My Account
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-shopping-basket"></i> &ensp;My Orders
+                                        </a>
+                                        <a href="">
+                                            <i class="far fa-question-circle"></i> &ensp; Returns Information
+                                        </a>
+                                        <a href="">
+                                            <i class="far fa-comment-dots"></i> &ensp;Contact Prefrences
+                                        </a>
+                                    </div>
+                                </div>
+                                <i class="far fa-heart"></i>
+                                <a href="./cart.html"><i class="fas fa-shopping-bag "></i></a>
+
+
+                            </div>
+                        </div>
+
+                        <!-- navbar collapse -->
+                    </nav>
+                    <!-- navbar -->
+                </div>
+            </header>
+        </div>
+
+        <!--=========ENDNAVBAR=========-->
+
+        <div class="item-price">
+            <div class="img">
+                <img src="./img/women/anime4.jpg" alt="" class="items">
+            </div>
+            <div class="price">
+                <p>Lorem ipsum , vel corrupti totam architecto? Pique ipsam doloremque assumenda?</p>
+                <h4>Price: $18.00</h4>
+                <h4>Color : Any</h4>
+                <h4>Size:</h4>
+                <select class="size" name="Select Size">
+                    <option value="">Select Size</option>
+                    <option value="">Size:45</option>
+                    <option value="">Size:30</option>
+                    <option value="">Size:35</option>
+                    <option value="">Size:40</option>
+                    <option value="">Size:36</option>
+                    <option value="">Size:48</option>
+                </select>
+
+                <div class="price-add">
+                    <button class="price-btn" type="submit"> ADD TO BAG</button>
+
+                    <i class=" far fa-heart"></i>
+                </div>
+            </div>
+
+        </div>
+        <button class="accordion">Product Details</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet consecissimos. Velit assumenda eligendi quidem ducimus odio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias saepe archiedit sit voluptas.</p>
+        </div>
+
+        <!-- ========================= footer start ========================= -->
+        <footer class="footer container-fluid">
+            <div class="footer-body">
+                <div class="footer-list">
+                    <a class="logo mb-40" href="index.html">
+            S<i class="far fa-sun"></i>MMER21
+        </a>
+                    <p class="mb-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt ut labore.</p>
+                    <div class="footer-social-links">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-list2">
+                    <h4>Help & Information</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="javascript:void(0)">Help</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">Track Order</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">Delivery & Returns</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-list3">
+                    <h4>About</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="javascript:void(0)">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0)">Privacy Policy</a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0)">Terms Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-list2">
+                    <h4>More From summer</h4>
+                    <ul class="footer-links">
+                        <li class="mb-30">
+                            <a href=""> Gift Voucher</a>
+
+                        </li>
+                        <li>
+                            <a href="">Black Friday</a>
+
+                        </li>
+                        <li>
+                            <a href="">Summer marketplace</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+
+                <div>S<i class="far fa-sun"></i>MMER21 | Shopping Platform - All Rights Reserved</p>
+                </div>
+                <div>
+                    <a href="mailto:iiam.bellu@gmail.com " target="_black "><i class="fab fa-mailchimp"></i> made by Belu & Nedu</a>
+                </div>
+            </div>
+
+        </footer>
+        <!-- ========================= footer end ========================= -->
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="./js/accrr.js"></script>
+<script src="./js/nav.js "></script>
+<script src="./js/side.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./js/main.js"></script>
+
+</html>
